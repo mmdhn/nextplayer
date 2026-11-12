@@ -112,6 +112,7 @@ fun PlayerContentFrame(
             SecondarySubtitleView(
                 cues = secondaryCues,
                 configuration = subtitleConfiguration,
+                positionState = subtitlePositionState,
             )
         }
 
